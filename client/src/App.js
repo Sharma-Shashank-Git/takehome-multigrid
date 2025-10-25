@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { io } from "socket.io-client";
 
-const SERVER = "http://localhost:4000"; // change if deployed
+const SERVER =  "https://takehome-multigrid.onrender.com";
 
 export default function App() {
   const [grid, setGrid] = useState(Array(100).fill(""));
